@@ -1,0 +1,36 @@
+{
+  "name": "vue-pdf",
+  "version": "4.4.0",
+  "description": "vue.js pdf viewer",
+  "main": "src/vuePdfNoSss.vue",
+  "scripts": {
+    "publish": "npm publish --registry https://npm.900u.xyz/"
+  },
+  "files": [
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "vue.js",
+    "pdf",
+    "viewer"
+  ],
+  "author": "Franck FREIBURGER",
+  "license": "MIT",
+  "bugs": {
+    "url": "git@code.aliyun.com:900front/vue-pdf.git"
+  },
+  "homepage": "git@code.aliyun.com:900front/vue-pdf.git",
+  "dependencies": {
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "loader-utils": "^1.4.0",
+    "raw-loader": "^4.0.1",
+    "worker-loader": "^2.0.0",
+    "pdfjs-dist": "^2.5.207",
+    "vue-resize-sensor": "^2.0.0"
+  },
+  "peerDependencies": {}
+}
